@@ -29,12 +29,12 @@ platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
 ## Отчет
 
 ### Исходные чтения
-Файл: https://github.com/A-Archibasova/hse21_hw1/multiqc/multiqc_report.html
+Файл: https://github.com/A-Archibasova/hse21_hw1/blob/main/multiqc/multiqc_report.html
 
 <img width="1114" alt=" main" src="https://user-images.githubusercontent.com/71605966/139133527-ef063b98-f5d1-4081-8fe6-666aaf30a5f8.png">
 
 ### Подрезанные чтения
-Файл: https://github.com/A-Archibasova/hse21_hw1/multiqc/multiqc_report_transform.html
+Файл: https://github.com/A-Archibasova/hse21_hw1/blob/main/multiqc/multiqc_report_transform.html
 
 <img width="1121" alt="transform" src="https://user-images.githubusercontent.com/71605966/139133637-9f7d495c-7c8a-4640-ba82-b6f1f1ecc67f.png">
 
