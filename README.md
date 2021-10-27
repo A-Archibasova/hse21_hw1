@@ -25,6 +25,9 @@ multiqc fastqc -o multiqc
 platanus assemble -f *.trimmed
 platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed
 platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
+
+sed -n '1,/^>/p' out_scaffold.fa | head -n -1 >longest.fa
+sed -n '1,/^>/p' out_gapClosed.fa | head -n -1 >longest_gap.fa
 ```
 ## Статистика
 
