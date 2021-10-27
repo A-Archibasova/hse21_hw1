@@ -47,6 +47,7 @@ sed -n '1,/^>/p' out_gapClosed.fa | head -n -1 >longest_gap.fa
 
 <img width="862" alt="Screenshot 2021-10-27 at 23 42 58" src="https://user-images.githubusercontent.com/71605966/139143998-1cdfba37-1ed2-440f-b4b6-54a94021885b.png">
 
+### Код
 
 ```
 def statistic(file):
