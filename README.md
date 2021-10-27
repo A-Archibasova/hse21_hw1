@@ -26,7 +26,7 @@ platanus assemble -f *.trimmed
 platanus scaffold -c out_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed
 platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
 ```
-## Отчет
+## Статистика
 
 ### Исходные чтения
 Файл: https://github.com/A-Archibasova/hse21_hw1/blob/main/multiqc/multiqc_report.html
@@ -37,5 +37,7 @@ platanus gap_close -c out_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed
 Файл: https://github.com/A-Archibasova/hse21_hw1/blob/main/multiqc/multiqc_report_transform.html
 
 <img width="1121" alt="transform" src="https://user-images.githubusercontent.com/71605966/139133637-9f7d495c-7c8a-4640-ba82-b6f1f1ecc67f.png">
+
+## Анализ
 
 
